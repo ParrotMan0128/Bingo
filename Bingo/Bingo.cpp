@@ -198,7 +198,6 @@ void Shuffle(int* Array) {
         Array[idx2] = iTemp;
 
     }
-
 }
 
 AI_MODE SelectAIMode() {
@@ -215,11 +214,9 @@ AI_MODE SelectAIMode() {
             break;
 
         }
-
     }
 
     return (AI_MODE)iAIMode;
-
 }
 
 void OutputNumber(int* Array) {
@@ -238,13 +235,11 @@ void OutputNumber(int* Array) {
                 cout << "*\t";
 
             }
-
         }
 
         cout << endl << endl;
 
     }
-
 }
 
 bool ChangeNumbertoStar(int* Array, int Input) {
@@ -321,7 +316,6 @@ int SelectAINumber(int* Array, AI_MODE Mode) {
                 iSaveCount = iStarCount;
 
             }
-
         }
 
         for (int i = 0; i < 5; ++i) {
@@ -343,7 +337,6 @@ int SelectAINumber(int* Array, AI_MODE Mode) {
                 iSaveCount = iStarCount;
 
             }
-
         }
 
         iStarCount = 0;
@@ -378,9 +371,7 @@ int SelectAINumber(int* Array, AI_MODE Mode) {
                     Input = Array[iLine * 5 + i];
                     break;
                 }
-
             }
-
         }
         else if (iLine <= LN_V5) {
 
@@ -403,9 +394,7 @@ int SelectAINumber(int* Array, AI_MODE Mode) {
                     break;
 
                 }
-
             }
-
         }
         else {
 
